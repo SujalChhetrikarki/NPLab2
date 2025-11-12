@@ -3,7 +3,7 @@ import java.net.*;
 
 public class Six {
     public static void main(String[] args) throws Exception {
-        URL url = new URL("https://www.example.com/image.png");
+        URL url = new URL("https://www.Facebook.com/image.png");
         URLConnection connection = url.openConnection();
         InputStream in = connection.getInputStream();
         FileOutputStream out = new FileOutputStream("downloaded_image.png");

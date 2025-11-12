@@ -2,7 +2,7 @@ import java.net.*;
 
 public class one {
     public static void main(String[] args) throws Exception {
-        URL url = new URL("https://www.example.com:8080/folder/page.html?name=John#section1");
+        URL url = new URL("https://www.Facebook.com:8080/folder/page.html?name=Sujal#section1");
 
         System.out.println("Protocol: " + url.getProtocol());
         System.out.println("Host: " + url.getHost());
